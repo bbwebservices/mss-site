@@ -1,0 +1,55 @@
+body {
+	/*background-color: #BBAA89;*/
+	;
+}
+
+.nav li:hover{
+	background-color: #EFEFEF;
+}
+
+.homeCol{
+	/*margin: 5px;*/
+}
+
+.firstHome {
+	margin-top: -20px;
+	margin-right: 0px;
+	margin-bottom: 50px;
+	height: 400px;
+	width: 100%;
+	background-color: #C8B897;
+	text-align: center;
+	box-shadow: inset 0px 0px 300px 10px rgba(0,0,0,0.2);
+	
+}
+
+.infoWrap {
+	padding-top: 50px;
+	max-width: 700px;
+	margin: 0 auto;
+	font-weight: 300;
+}
+
+.introText {
+	font-size: 24px;
+}
+
+.h4Link {
+	color: #6A7944;
+}
+
+.h4Link:hover {
+	color: #546030;
+}
+
+.contactFoot {
+	text-decoration: underline;
+}
+
+.browseButton {
+	margin-top: 25px;
+}
+
+.infoBottom {
+	margin-bottom: 60px;
+}
