@@ -3,9 +3,19 @@ body {
 	;
 }
 
+/*--------------
+NAVIGATION STYLES
+--------------*/
+
+
 .nav li:hover{
 	background-color: #EFEFEF;
 }
+
+
+/*----------------
+HOME PAGE STYLES
+----------------*/
 
 .homeCol{
 	/*margin: 5px;*/
@@ -23,49 +33,23 @@ body {
 	
 }
 
-.infoWrap {
-	padding-top: 50px;
-	max-width: 700px;
-	margin: 0 auto;
-	font-weight: 300;
-}
-
-.introText {
-	font-size: 24px;
-}
-
-.h4Link {
-	color: #6A7944;
-}
-
-.h4Link:hover {
-	color: #546030;
-}
-
-.contactFoot {
-	text-decoration: underline;
-}
-
-.browseButton {
-	margin-top: 25px;
-}
-
-.infoBottom {
-	margin-bottom: 60px;
-}
 .homeImages {
 	width: 100%;
 	height: auto;
 }
 
+
+/*---------------
+CATALOG STYLES
+---------------*/
+
+.browseButton {
+	margin-top: 25px;
+}
+
 .catalogImages {
 	width: 100%;
 	height: auto;
-	
-}
-
-.picJumbotron {
-	box-shadow: inset 0px 0px 300px 10px rgba(0,0,0,0.2);
 	
 }
 
@@ -87,6 +71,37 @@ body {
     margin-bottom: -35px;
     color: #867A63;
 }
+
+/*---------------
+UNIVERSAL STYLES
+---------------*/
+.contactFoot {
+	text-decoration: underline;
+}
+
+.h4Link {
+	color: #6A7944;
+}
+
+.h4Link:hover {
+	color: #546030;
+}
+
+.infoWrap {
+	padding-top: 50px;
+	max-width: 700px;
+	margin: 0 auto;
+	font-weight: 300;
+}
+
+.introText {
+	font-size: 24px;
+}
+
+.infoBottom {
+	margin-bottom: 60px;
+}
+
 
 .seperator{
 	margin:0 auto;
