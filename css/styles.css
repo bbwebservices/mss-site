@@ -7,11 +7,9 @@ body {
 NAVIGATION STYLES
 --------------*/
 
-
 .nav li:hover{
 	background-color: #EFEFEF;
 }
-
 
 
 
@@ -54,7 +52,6 @@ HOME PAGE STYLES
 
 
 
-
 /*---------------
 CATALOG STYLES
 ---------------*/
@@ -71,7 +68,11 @@ CATALOG STYLES
     border-radius: 3px;
     transition: .3s;
 
-	
+}
+
+.catalogImages:active{
+	background-color: #988387;
+	opacity: .8;
 }
 
 .catalogImages:hover {
@@ -82,11 +83,6 @@ CATALOG STYLES
     cursor: pointer;
     border-radius: 3px;
     transition: .3s;
-}
-
-.catalogImages:active{
-	background-color: #988387;
-	opacity: .8;
 }
 
 .catalogCont {
@@ -146,12 +142,57 @@ UNIVERSAL STYLES
 	margin-bottom: 60px;
 }
 
+.lightbox {
+	position: fixed;
+	left: 0px; right: 0px; top: 0px; bottom: 0px;
+	background-color: rgba(0, 0, 0, 0.5);
+	
+}
 
-.seperator{
-	margin:0 auto;
+#lightbox1 {
+	display: none;
+
+}
+
+#lightbox2 {
+	display: none;
+}
+
+.lightbox .content {
+	background-color: #000;
+	border-radius: 5px;
+	width: auto;
+    height: 394px;
+
+	position: absolute;
+	left: 0px; right: 0px; top: 0px; bottom: 0px;
+	/*margin: auto;*/
+	padding:20px 20px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 19%;
+
+	overflow: hidden;
+
+}
+
+.lightbox .content .lightboxImage {
+    margin-left: -9px;
+    width: 156%;
+	height: auto;
+}
+
+.seperator {
+	position: relative;
 	width: 90%;
 	border-bottom: solid 1px grey;
-	margin-top: 361px;
+	margin-top: 60px;
+	margin-left: 4%;
+	
+}
+
+.slideText {
+	color: #F7ECD4;
 }
 
 .space {
