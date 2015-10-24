@@ -13,12 +13,25 @@ NAVIGATION STYLES
 }
 
 
+
+
+
 /*----------------
 HOME PAGE STYLES
 ----------------*/
 
 .homeCol{
 	/*margin: 5px;*/
+}
+
+.homeCol p {
+    margin-top: 20px;
+}
+
+.homeImages {
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
 }
 
 .firstHome {
@@ -33,10 +46,9 @@ HOME PAGE STYLES
 	
 }
 
-.homeImages {
-	width: 100%;
-	height: auto;
-}
+
+
+
 
 
 /*---------------
@@ -71,6 +83,10 @@ CATALOG STYLES
     margin-bottom: -35px;
     color: #867A63;
 }
+
+
+
+
 
 /*---------------
 UNIVERSAL STYLES
@@ -108,4 +124,8 @@ UNIVERSAL STYLES
 	width: 90%;
 	border-bottom: solid 1px grey;
 	margin-top: 361px;
+}
+
+.space {
+	margin-bottom: 150px;
 }
