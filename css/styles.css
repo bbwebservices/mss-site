@@ -25,13 +25,17 @@ HOME PAGE STYLES
 }
 
 .homeCol p {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .homeImages {
 	width: 100%;
 	height: auto;
-	margin-top: 20px;
+	margin-top: 30px;
+}
+
+.homeRow {
+	margin-top: 10px;
 }
 
 .firstHome {
@@ -62,11 +66,36 @@ CATALOG STYLES
 .catalogImages {
 	width: 100%;
 	height: auto;
+	padding: 10px;
+    background-color: #ebccd1;
+    border-radius: 3px;
+    transition: .3s;
+
 	
+}
+
+.catalogImages:hover {
+	width: 100%;
+	height: auto;
+	padding: 10px;
+    background-color: #B79FA3;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: .3s;
+}
+
+.catalogImages:active{
+	background-color: #988387;
+	opacity: .8;
 }
 
 .catalogCont {
 	text-align: center;
+}
+
+.catalogCont h2 {
+    margin-bottom: 10px;
+    color: #867A63;
 }
 
 .catalogDiv {
@@ -76,12 +105,11 @@ CATALOG STYLES
 
 .catalogDiv h4 {
 	margin-bottom: 25px;
-    margin-top: 76px;
+    margin-top: 55px;
 }
 
-.catalogDiv h2 {
-    margin-bottom: -35px;
-    color: #867A63;
+#maxonLogo {
+	text-align: center;
 }
 
 
@@ -127,5 +155,5 @@ UNIVERSAL STYLES
 }
 
 .space {
-	margin-bottom: 150px;
+	margin-bottom: 130px;
 }
