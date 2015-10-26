@@ -158,6 +158,14 @@ UNIVERSAL STYLES
 	display: none;
 }
 
+#lightbox3 {
+	display: none;
+}
+
+#lightbox4 {
+	display: none;
+}
+
 .lightbox .content {
 	background-color: #000;
 	border-radius: 5px;
