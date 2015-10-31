@@ -197,16 +197,17 @@ CATALOG STYLES
 /*---------------
 CONTACT STYLES
 ---------------*/
-#contactSubmit{
-	width: 100%;
+#contactSubmit {
+    width: 100%;
     border-radius: 2px;
     border-style: ridge;
     background: #fff;
     height: 50px;
     font-size: 16px;
     float: none;
-    margin:auto;
-    width: 400px;
+    margin: auto;
+    width: 80%;
+    margin-bottom: 180px;
 }
 <<<<<<< Updated upstream
 
@@ -428,11 +429,25 @@ UNIVERSAL STYLES
 }
 
 .space {
-<<<<<<< HEAD
 	margin-bottom: 150px;
 }
->>>>>>> Stashed changes
-=======
-	margin-bottom: 130px;
+
+@media only screen and (max-width : 1024px) {
+
+	body span.input--kuro{
+		max-width: 100%;
+		width: 100%;
+	}
+body .input {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+     margin: 0; 
+     margin-top: 10px;
+     margin-bottom: 10px;
+    max-width: 350px;
+    width: calc(100% - 2em);
+    vertical-align: top;
 }
->>>>>>> master
+
+}
