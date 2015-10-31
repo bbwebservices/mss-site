@@ -16,7 +16,7 @@
 .button {
 	float: left;
 	min-width: 150px;
-	max-width: 250px;
+	max-width: 100%;
 	display: block;
 	margin: 1em;
 	padding: 1em 2em;
@@ -421,7 +421,7 @@
 	content: '';
 	position: absolute;
 	border-radius: inherit;
-	background: #7986cb;
+	background: #AAA;
 	z-index: -1;
 }
 .button--nuka::before {

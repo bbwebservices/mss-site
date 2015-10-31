@@ -111,7 +111,6 @@ HOME PAGE STYLES
     background-color: #C8B897;
     text-align: center;
     box-shadow: inset 0px 0px 300px 10px rgba(0,0,0,0.2);
-    background-image: url(/img/contact.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -167,8 +166,11 @@ CONTACT STYLES
     border-radius: 2px;
     border-style: ridge;
     background: #fff;
-    height: 100px;
-    font-size: 26px;
+    height: 50px;
+    font-size: 16px;
+    float: none;
+    margin:auto;
+    width: 400px;
 }
 
 
@@ -181,11 +183,35 @@ CONTACT STYLES
     position: relative;
 }
 
-.infoWrap h1 {
+.contact .infoWrap h1 {
     font-size: 6em;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    color: #fff;
+    background-color: rgba(0,0,0,.5);
+    padding: 40px;
 }
 
+body .input__field--kuro {
+    opacity: 1;
+    line-height: 80px;
+    height: 80px;
+    font-size: 24px;
+}
+.input__label--kuro {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    color: #df6589;
+    pointer-events: none;
+    height: 80px;
+}
+.input__label-content {
+    position: relative;
+    display: block;
+    padding: 1.6em 0;
+    width: 100%;
+    height: 80px;
+}
+
+.contact .firstHome{
+    background-image: url(/img/contact.jpg);
+}
