@@ -1,8 +1,34 @@
+
+/*--------------
+Fonts
+--------------*/
+
+@import url(https://fonts.googleapis.com/css?family=Muli:400,300|Questrial);
+
+/*font-family: 'Muli', sans-serif;
+
+font-family: 'Questrial', sans-serif;
+
+*/
+
 body {
 	/*background-color: #BBAA89;*/
 	;
+	font-family: 'Questrial', sans-serif;
+
 }
 
+/*Clearfix*/
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
 /*--------------
 NAVIGATION STYLES
 --------------*/
@@ -11,79 +37,6 @@ NAVIGATION STYLES
 .nav li:hover{
 	background-color: #EFEFEF;
 }
-
-
-
-
-
-/*----------------
-HOME PAGE STYLES
-----------------*/
-
-.homeCol{
-	/*margin: 5px;*/
-}
-
-.homeCol p {
-    margin-top: 20px;
-}
-
-.homeImages {
-	width: 100%;
-	height: auto;
-	margin-top: 20px;
-}
-
-.firstHome {
-	margin-top: -20px;
-	margin-right: 0px;
-	margin-bottom: 50px;
-	height: 400px;
-	width: 100%;
-	background-color: #C8B897;
-	text-align: center;
-	box-shadow: inset 0px 0px 300px 10px rgba(0,0,0,0.2);
-	
-}
-
-
-
-
-
-
-/*---------------
-CATALOG STYLES
----------------*/
-
-.browseButton {
-	margin-top: 25px;
-}
-
-.catalogImages {
-	width: 100%;
-	height: auto;
-	
-}
-
-.catalogCont {
-	text-align: center;
-}
-
-.catalogDiv {
-	text-align: center;
-	height: auto;
-}
-
-.catalogDiv h4 {
-	margin-bottom: 25px;
-    margin-top: 76px;
-}
-
-.catalogDiv h2 {
-    margin-bottom: -35px;
-    color: #867A63;
-}
-
 
 
 
@@ -129,3 +82,110 @@ UNIVERSAL STYLES
 .space {
 	margin-bottom: 150px;
 }
+
+
+/*----------------
+HOME PAGE STYLES
+----------------*/
+
+.homeCol{
+	/*margin: 5px;*/
+}
+
+.homeCol p {
+    margin-top: 20px;
+}
+
+.homeImages {
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+}
+
+.firstHome {
+    margin-top: -20px;
+    margin-right: 0px;
+    margin-bottom: 50px;
+    height: 400px;
+    width: 100%;
+    background-color: #C8B897;
+    text-align: center;
+    box-shadow: inset 0px 0px 300px 10px rgba(0,0,0,0.2);
+    background-image: url(/img/contact.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+/*---------------
+CATALOG STYLES
+---------------*/
+
+.browseButton {
+	margin-top: 25px;
+}
+
+.catalogImages {
+	width: 100%;
+	height: auto;
+	
+}
+
+.catalogCont {
+	text-align: center;
+}
+
+.catalogDiv {
+	text-align: center;
+	height: auto;
+}
+
+.catalogDiv h4 {
+	margin-bottom: 25px;
+    margin-top: 76px;
+}
+
+.catalogDiv h2 {
+    margin-bottom: -35px;
+    color: #867A63;
+}
+
+
+
+
+
+/*---------------
+CONTACT STYLES
+---------------*/
+#contactSubmit{
+	width: 100%;
+    border-radius: 2px;
+    border-style: ridge;
+    background: #fff;
+    height: 100px;
+    font-size: 26px;
+}
+
+
+.infoWrap {
+    /* padding-top: 50px; */
+    max-width: 700px;
+    margin: 0 auto;
+    font-weight: 300;
+    height: 100%;
+    position: relative;
+}
+
+.infoWrap h1 {
+    font-size: 6em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
