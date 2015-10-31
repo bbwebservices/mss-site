@@ -421,7 +421,7 @@
 	content: '';
 	position: absolute;
 	border-radius: inherit;
-	background: #AAA;
+	background: #ECEFF1;
 	z-index: -1;
 }
 .button--nuka::before {
