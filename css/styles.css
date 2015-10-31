@@ -33,7 +33,6 @@ body {
 NAVIGATION STYLES
 --------------*/
 
-
 .nav li:hover{
 	background-color: #EFEFEF;
 }
@@ -41,6 +40,7 @@ NAVIGATION STYLES
 
 
 
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 /*---------------
 UNIVERSAL STYLES
@@ -92,6 +92,8 @@ UNIVERSAL STYLES
 
 >>>>>>> hathMSS
 >>>>>>> Stashed changes
+=======
+>>>>>>> master
 /*----------------
 HOME PAGE STYLES
 ----------------*/
@@ -101,13 +103,17 @@ HOME PAGE STYLES
 }
 
 .homeCol p {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .homeImages {
 	width: 100%;
 	height: auto;
-	margin-top: 20px;
+	margin-top: 30px;
+}
+
+.homeRow {
+	margin-top: 10px;
 }
 
 .firstHome {
@@ -128,7 +134,6 @@ HOME PAGE STYLES
 
 
 
-
 /*---------------
 CATALOG STYLES
 ---------------*/
@@ -140,11 +145,35 @@ CATALOG STYLES
 .catalogImages {
 	width: 100%;
 	height: auto;
-	
+	padding: 10px;
+    background-color: #ebccd1;
+    border-radius: 3px;
+    transition: .3s;
+
+}
+
+.catalogImages:active{
+	background-color: #988387;
+	opacity: .8;
+}
+
+.catalogImages:hover {
+	width: 100%;
+	height: auto;
+	padding: 10px;
+    background-color: #B79FA3;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: .3s;
 }
 
 .catalogCont {
 	text-align: center;
+}
+
+.catalogCont h2 {
+    margin-bottom: 10px;
+    color: #867A63;
 }
 
 .catalogDiv {
@@ -154,12 +183,11 @@ CATALOG STYLES
 
 .catalogDiv h4 {
 	margin-bottom: 25px;
-    margin-top: 76px;
+    margin-top: 55px;
 }
 
-.catalogDiv h2 {
-    margin-bottom: -35px;
-    color: #867A63;
+#maxonLogo {
+	text-align: center;
 }
 
 
@@ -338,15 +366,73 @@ UNIVERSAL STYLES
 	margin-bottom: 60px;
 }
 
+.lightbox {
+	position: fixed;
+	left: 0px; right: 0px; top: 0px; bottom: 0px;
+	background-color: rgba(0, 0, 0, 0.5);
+	
+}
 
-.seperator{
-	margin:0 auto;
+#lightbox1 {
+	display: none;
+
+}
+
+#lightbox2 {
+	display: none;
+}
+
+#lightbox3 {
+	display: none;
+}
+
+#lightbox4 {
+	display: none;
+}
+
+.lightbox .content {
+	background-color: #000;
+	border-radius: 5px;
+	width: auto;
+    height: 394px;
+
+	position: absolute;
+	left: 0px; right: 0px; top: 0px; bottom: 0px;
+	/*margin: auto;*/
+	padding:20px 20px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 19%;
+
+	overflow: hidden;
+
+}
+
+.lightbox .content .lightboxImage {
+    margin-left: -9px;
+    width: 156%;
+	height: auto;
+}
+
+.seperator {
+	position: relative;
 	width: 90%;
 	border-bottom: solid 1px grey;
-	margin-top: 361px;
+	margin-top: 60px;
+	margin-left: 4%;
+	
+}
+
+.slideText {
+	color: #F7ECD4;
 }
 
 .space {
+<<<<<<< HEAD
 	margin-bottom: 150px;
 }
 >>>>>>> Stashed changes
+=======
+	margin-bottom: 130px;
+}
+>>>>>>> master
