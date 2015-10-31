@@ -41,6 +41,7 @@ NAVIGATION STYLES
 
 
 
+<<<<<<< Updated upstream
 /*---------------
 UNIVERSAL STYLES
 ---------------*/
@@ -84,6 +85,13 @@ UNIVERSAL STYLES
 }
 
 
+=======
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> hathMSS
+>>>>>>> Stashed changes
 /*----------------
 HOME PAGE STYLES
 ----------------*/
@@ -172,6 +180,7 @@ CONTACT STYLES
     margin:auto;
     width: 400px;
 }
+<<<<<<< Updated upstream
 
 
 .infoWrap {
@@ -183,6 +192,19 @@ CONTACT STYLES
     position: relative;
 }
 
+=======
+
+
+.infoWrap {
+    /* padding-top: 50px; */
+    max-width: 700px;
+    margin: 0 auto;
+    font-weight: 300;
+    height: 100%;
+    position: relative;
+}
+
+>>>>>>> Stashed changes
 .contact .infoWrap h1 {
     font-size: 6em;
     color: #fff;
@@ -214,4 +236,117 @@ body .input__field--kuro {
 
 .contact .firstHome{
     background-image: url(/img/contact.jpg);
+<<<<<<< Updated upstream
 }
+=======
+}
+<<<<<<< HEAD
+
+.lightbox {
+	position: fixed;
+	left: 0px; right: 0px; top: 0px; bottom: 0px;
+	background-color: rgba(0, 0, 0, 0.5);
+	
+}
+
+#lightbox1 {
+	display: none;
+
+}
+
+#lightbox2 {
+	display: none;
+}
+
+#lightbox3 {
+	display: none;
+}
+
+#lightbox4 {
+	display: none;
+}
+
+.lightbox .content {
+	background-color: #000;
+	border-radius: 5px;
+	width: auto;
+    height: 394px;
+
+	position: absolute;
+	left: 0px; right: 0px; top: 0px; bottom: 0px;
+	/*margin: auto;*/
+	padding:20px 20px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 19%;
+
+	overflow: hidden;
+
+}
+
+.lightbox .content .lightboxImage {
+    margin-left: -9px;
+    width: 156%;
+	height: auto;
+}
+
+.seperator {
+	position: relative;
+	width: 90%;
+	border-bottom: solid 1px grey;
+	margin-top: 60px;
+	margin-left: 4%;
+	
+}
+
+.slideText {
+	color: #F7ECD4;
+}
+
+.space {
+	margin-bottom: 130px;
+}
+=======
+>>>>>>> hathMSS
+/*---------------
+UNIVERSAL STYLES
+---------------*/
+.contactFoot {
+	text-decoration: underline;
+}
+
+.h4Link {
+	color: #6A7944;
+}
+
+.h4Link:hover {
+	color: #546030;
+}
+
+.infoWrap {
+	padding-top: 50px;
+	max-width: 700px;
+	margin: 0 auto;
+	font-weight: 300;
+}
+
+.introText {
+	font-size: 24px;
+}
+
+.infoBottom {
+	margin-bottom: 60px;
+}
+
+
+.seperator{
+	margin:0 auto;
+	width: 90%;
+	border-bottom: solid 1px grey;
+	margin-top: 361px;
+}
+
+.space {
+	margin-bottom: 150px;
+}
+>>>>>>> Stashed changes
