@@ -451,3 +451,8 @@ body .input {
 }
 
 }
+@media only screen and (max-width : 650px) {
+	.pull-right, .pull-left{
+		width: 45%;
+	}
+}
