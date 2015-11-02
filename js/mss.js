@@ -1,9 +1,9 @@
 
 //close lightbox
-$('.lightbox').click(function(){
-		$('.lightbox').css('display', 'none');
-		console.log('working');
-	});
+// $('.lightbox').click(function(){
+// 		$('.lightbox').css('display', 'none');
+// 		console.log('working');
+// 	});
 
 
 //open lightbox

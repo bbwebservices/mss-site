@@ -78,6 +78,7 @@ UNIVERSAL STYLES
 	width: 90%;
 	border-bottom: solid 1px grey;
 	margin-top: 361px;
+	margin-bottom: 20px;
 }
 
 .space {
@@ -191,8 +192,47 @@ CATALOG STYLES
 }
 
 
+/*--------------------
+PRODUCT PAGE STYLES
+--------------------*/
 
+.firstProductPage {
+	margin-top: -20px;
+    margin-right: 0px;
+    height: auto;
+    width: 100%;
+    background-color: rgba(200,184,151,0.4);
+    text-align: center;
+    box-shadow: inset 0px 0px 300px 10px rgba(0,0,0,0.2);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 160px;
+}
 
+.productDescription {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 16px;
+}
+
+.productSpecs h2 {
+	margin-top: 30px;
+    margin-bottom: 25px;
+
+}
+
+.productSpecs ul {
+	margin-bottom: -5px;
+}
+
+.productSpecs li {
+    margin-bottom: 15px;
+}
+
+.slideNotification {
+    margin-top: 15px;
+}
 
 /*---------------
 CONTACT STYLES
