@@ -40,8 +40,7 @@ NAVIGATION STYLES
 
 
 
-<<<<<<< HEAD
-<<<<<<< Updated upstream
+
 /*---------------
 UNIVERSAL STYLES
 ---------------*/
@@ -86,15 +85,7 @@ UNIVERSAL STYLES
 }
 
 
-=======
-<<<<<<< HEAD
-=======
 
-
->>>>>>> hathMSS
->>>>>>> Stashed changes
-=======
->>>>>>> master
 /*----------------
 HOME PAGE STYLES
 ----------------*/
@@ -228,6 +219,7 @@ PRODUCT PAGE STYLES
 
 .productSpecs li {
     margin-bottom: 15px;
+    font-size: 15px;
 }
 
 .slideNotification {
@@ -237,6 +229,8 @@ PRODUCT PAGE STYLES
 /*---------------
 CONTACT STYLES
 ---------------*/
+1631 Walter Street Ventura, CA 93003 (805) 644-9784
+
 #contactSubmit {
     width: 100%;
     border-radius: 2px;
@@ -249,6 +243,12 @@ CONTACT STYLES
     width: 80%;
     margin-bottom: 180px;
 }
+
+#contactInfo {
+	font-size: 20px;
+	line-height: 30px;
+}
+
 <<<<<<< Updated upstream
 
 
