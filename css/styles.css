@@ -303,6 +303,10 @@ body .input__field--kuro {
     height: 80px;
 }
 
+#message {
+	max-width: 100%;
+}
+
 .contact .firstHome{
     background-image: url(/img/contact.jpg);
 <<<<<<< Updated upstream
