@@ -40,8 +40,7 @@ NAVIGATION STYLES
 
 
 
-<<<<<<< HEAD
-<<<<<<< Updated upstream
+
 /*---------------
 UNIVERSAL STYLES
 ---------------*/
@@ -86,15 +85,7 @@ UNIVERSAL STYLES
 }
 
 
-=======
-<<<<<<< HEAD
-=======
 
-
->>>>>>> hathMSS
->>>>>>> Stashed changes
-=======
->>>>>>> master
 /*----------------
 HOME PAGE STYLES
 ----------------*/
@@ -228,6 +219,7 @@ PRODUCT PAGE STYLES
 
 .productSpecs li {
     margin-bottom: 15px;
+    font-size: 15px;
 }
 
 .slideNotification {
@@ -237,6 +229,9 @@ PRODUCT PAGE STYLES
 /*---------------
 CONTACT STYLES
 ---------------*/
+
+/*1631 Walter Street Ventura, CA 93003 (805) 644-9784*/
+
 #contactSubmit {
     width: 100%;
     border-radius: 2px;
@@ -249,7 +244,15 @@ CONTACT STYLES
     width: 80%;
     margin-bottom: 180px;
 }
-<<<<<<< Updated upstream
+
+#contactInfo {
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.contactHomeBanner {
+	height: 400px !important;
+}
 
 
 .infoWrap {
@@ -261,7 +264,7 @@ CONTACT STYLES
     position: relative;
 }
 
-=======
+
 
 
 .infoWrap {
@@ -273,7 +276,7 @@ CONTACT STYLES
     position: relative;
 }
 
->>>>>>> Stashed changes
+
 .contact .infoWrap h1 {
     font-size: 6em;
     color: #fff;
@@ -309,11 +312,7 @@ body .input__field--kuro {
 
 .contact .firstHome{
     background-image: url(/img/contact.jpg);
-<<<<<<< Updated upstream
 }
-=======
-}
-<<<<<<< HEAD
 
 .lightbox {
 	position: fixed;
@@ -379,8 +378,7 @@ body .input__field--kuro {
 .space {
 	margin-bottom: 130px;
 }
-=======
->>>>>>> hathMSS
+
 /*---------------
 UNIVERSAL STYLES
 ---------------*/
