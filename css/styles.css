@@ -80,6 +80,10 @@ UNIVERSAL STYLES
 	margin-bottom: 20px;
 }
 
+.smallJumbo {
+	height: 210px !important;
+}
+
 .space {
 	margin-bottom: 150px;
 }
@@ -116,7 +120,7 @@ HOME PAGE STYLES
     width: 100%;
     background-color: #C8B897;
     text-align: center;
-    box-shadow: inset 0px 0px 300px 10px rgba(0,0,0,0.2);
+    box-shadow: inset 0px 0px 150px 10px rgba(0,0,0,0.2);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
