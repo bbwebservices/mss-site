@@ -63,6 +63,10 @@ UNIVERSAL STYLES
 	font-weight: 300;
 }
 
+.productHead{
+	text-align: left!important;
+}
+
 .introText {
 	font-size: 24px;
 }
@@ -206,9 +210,11 @@ PRODUCT PAGE STYLES
 }
 
 .productDescription {
-	margin-top: 20px;
+	text-align: left;
+    margin-top: 40px;
 	margin-bottom: 20px;
 	font-size: 16px;
+	float: left;
 }
 
 .productSpecs h2 {
@@ -222,6 +228,7 @@ PRODUCT PAGE STYLES
 }
 
 .productSpecs li {
+	text-align: left;
     margin-bottom: 15px;
     font-size: 15px;
 }
@@ -230,6 +237,10 @@ PRODUCT PAGE STYLES
     margin-top: 15px;
 }
 
+.productPageImg {
+    margin-top: 60px;
+	float: left;
+}
 /*---------------
 CONTACT STYLES
 ---------------*/
@@ -281,12 +292,12 @@ CONTACT STYLES
 }
 
 
-.contact .infoWrap h1 {
+/*.contact .infoWrap h1 {
     font-size: 6em;
     color: #fff;
     background-color: rgba(0,0,0,.5);
     padding: 40px;
-}
+}*/
 
 body .input__field--kuro {
     opacity: 1;
