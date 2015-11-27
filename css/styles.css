@@ -142,6 +142,13 @@ CATALOG STYLES
 	margin-top: 25px;
 }
 
+.catalogFurnitureType {
+	margin-top: 50px;
+	margin-bottom: -40px; 
+	color: #867A63;
+	text-decoration: underline;
+}
+
 .catalogImages {
 	width: 100%;
 	height: auto;
@@ -186,14 +193,48 @@ CATALOG STYLES
     margin-top: 55px;
 }
 
+.brandLink {
+	margin-top: 40px;
+	margin-bottom: -30px;
+	font-size: 20px;
+}
+
 #maxonLogo {
 	text-align: center;
+}
+
+#nationalLogo {
+	margin-top: 25px;
+}
+
+.nationalImage {
+	width: 80%;
+	height: auto;
+}
+
+.nationalImage:hover {
+	width: 80%;
+	height: auto;
+	padding: 10px;
+    background-color: #B79FA3;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: .3s;
+}
+
+.waveworksTitle {
+	margin-top: 70px;
 }
 
 
 /*--------------------
 PRODUCT PAGE STYLES
 --------------------*/
+
+.brochureLink {
+	/*text-decoration: underline;*/
+	margin-top: 20px;
+}
 
 .firstProductPage {
 	margin-top: -20px;
@@ -267,6 +308,11 @@ CONTACT STYLES
 
 .contactHomeBanner {
 	height: 400px !important;
+}
+
+.contactHeading {
+	margin-top: -30px;
+	margin-bottom: 10px;
 }
 
 
